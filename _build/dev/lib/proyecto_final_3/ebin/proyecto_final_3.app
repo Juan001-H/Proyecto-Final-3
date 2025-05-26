@@ -1,0 +1,12 @@
+{application,proyecto_final_3,
+             [{config_mtime,1747952850},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"proyecto_final_3"},
+              {modules,['Elixir.Chat.Application','Elixir.Chat.Cookie',
+                        'Elixir.Cliente.Chat','Elixir.ProyectoFinal3',
+                        'Elixir.ProyectoFinal3.Application',
+                        'Elixir.Servidor.Chat','Elixir.Util']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ProyectoFinal3.Application',[]}}]}.
