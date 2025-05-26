@@ -26,6 +26,6 @@ defmodule Util do
       ArgumentError ->
         mostrar_error("Error, se espera que ingrese un número #{tipo_dato}")
         ingresar(mensaje, parser, tipo_dato)
-    end
-  end
+    end
+  end
 end

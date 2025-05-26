@@ -91,5 +91,5 @@ defmodule Servidor.Chat do
 
   def handle_call(:listar_usuarios, _from, state) do
     {:reply, Map.keys(state.usuarios), state}
-  end
+  end
 end

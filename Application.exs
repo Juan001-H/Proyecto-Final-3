@@ -8,5 +8,5 @@ defmodule Chat.Application do
 
     opts = [strategy: :one_for_one, name: Chat.Supervisor]
     Supervisor.start_link(children, opts)
-  end
+  end
 end
